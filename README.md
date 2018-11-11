@@ -6,6 +6,9 @@ BostonCracks is a predictive model of the many cracks in Boston's sidewalks. See
 
 BostonCracks is built using keras and pytorch.
 
+Please see figure below for complete model summary:
+<img src="https://i.imgur.com/BUpv1K8.png" />
+
 
 ## Models
 
