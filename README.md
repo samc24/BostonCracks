@@ -1,4 +1,4 @@
-![logo.png][logo]
+![logo.png](https://i.imgur.com/HFM4jZT.png)
 
 # BostonCracks
 
