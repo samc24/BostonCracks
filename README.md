@@ -6,6 +6,17 @@ BostonCracks is a predictive model of the many cracks in Boston's sidewalks. See
 
 BostonCracks is built using keras and pytorch.
 
+
+## Models
+
+BostonCracks takes advantage of two different types of models: visual and statistical.
+
+The visual model utilizes image data scraped from Google Street View. It uses a separate model trained on driverless cars to locate the sidewalk in the image, and then determines the condition of the sidewalk from the processed image. Images of sidewalks in various conditions are also presented to the users of the BostonCracks app for classification, to expand the dataset on which the model is trained.
+
+The statistical model examines the geographical data of a certain piece of sidewalk, using that area's concentration of trees, median income, the number of times the sidewalk has been reported as cracked, and the concentration of trees in the area to determine the likelihood that the sidewalk is cracked.
+
+City employees can use the recommendations from both models to determine where to send workers to examine and repair sidewalk cracks.
+
 ### Usage
 
 This repository contains descriptions of data and models used to predict sidewalk cracking. Clone the repo to evaluate or tinker with the models.
