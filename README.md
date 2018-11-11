@@ -11,7 +11,7 @@ BostonCracks is built using keras and pytorch.
 
 BostonCracks takes advantage of two different types of models: visual and statistical.
 
-The visual model utilizes image data scraped from Google Street View. It uses a separate model trained on driverless cars to locate the sidewalk in the image, and then determines the condition of the sidewalk from the processed image. Images of sidewalks in various conditions are also presented to the users of the BostonCracks app for classification, to expand the dataset on which the model is trained.
+The visual model utilizes image data scraped from Google Street View. It takes advantage of transfer learning and models trained on driverless car data to locate the sidewalk in an image, and then determines the condition of the sidewalk from the processed image. Images of sidewalks in various conditions are also presented to the users of the BostonCracks app for classification, to expand the dataset on which the model is trained.
 
 The statistical model examines the geographical data of a certain piece of sidewalk, using that area's concentration of trees, median income, the number of times the sidewalk has been reported as cracked, and the concentration of trees in the area to determine the likelihood that the sidewalk is cracked.
 
